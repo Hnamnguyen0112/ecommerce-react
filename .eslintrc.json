@@ -61,7 +61,9 @@
       {
         "devDependencies": true
       }
-    ]
+    ],
+    "semi": "off",
+    "@typescript-eslint/semi": "off"
   },
   "settings": {
     "import/resolver": {

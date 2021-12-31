@@ -1,23 +1,23 @@
-import React from 'react';
-import './App.css';
-import styled from 'styled-components';
-import tw from 'twin.macro';
-
-const StyledH1 = styled.h1`
-  ${tw`
-    text-3xl
-    font-bold 
-    underline 
-    text-amber-400
-  `}
-`;
+import React from 'react'
+import './App.css'
+import { Link, useRoutes } from 'react-router-dom'
+import Header from './components/Header'
+import PageNotFound from './pages/PageNotFound'
 
 function App() {
+  const pageNotFound = {
+    path: '/404',
+    element: <PageNotFound />,
+  }
   return (
-    <StyledH1>
-      Hello world!
-    </StyledH1>
-  );
+    <>
+      <Header />
+      {useRoutes([pageNotFound])}
+      <button type="button">
+        <Link to="/404">Not Found Page</Link>
+      </button>
+    </>
+  )
 }
 
-export default App;
+export default App
