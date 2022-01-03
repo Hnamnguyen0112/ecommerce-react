@@ -5,7 +5,7 @@ import tw from 'twin.macro'
 const StyledMenuItem = styled.a`
   ${tw`
     text-gray-800 
-    hover:text-purple-300 
+    hover:text-amber-300 
     py-3 
     px-6
   `}
@@ -13,11 +13,11 @@ const StyledMenuItem = styled.a`
 
 const StyledSignUpButton = styled.a`
   ${tw`
-    bg-purple-200 
-    hover:bg-purple-300 
+    bg-amber-200 
+    hover:bg-amber-300 
     rounded-full 
     uppercase 
-    text-purple-700 
+    text-amber-700 
     py-3 
     px-6
   `}
@@ -26,7 +26,7 @@ const StyledSignUpButton = styled.a`
 function Header() {
   return (
     <header className="flex flex-col sm:flex-row items-center justify-between py-6 relative">
-      <h3 className="text-2xl font-bold uppercase text-blue-900">Logo</h3>
+      <h3 className="text-2xl font-bold uppercase text-amber-900">Logo</h3>
       <nav className="hidden md:flex text-lg">
         <StyledMenuItem href="#!">Home</StyledMenuItem>
         <StyledMenuItem href="#!">Services</StyledMenuItem>
@@ -35,11 +35,6 @@ function Header() {
         <StyledMenuItem href="#!">FAQ</StyledMenuItem>
         <StyledSignUpButton href="#!">Sign Up</StyledSignUpButton>
       </nav>
-      <button type="button" className="flex md:hidden flex-col absolute top-0 right-0 p-4 mt-5">
-        <span className="w-5 h-px mb-1 bg-orange-500" />
-        <span className="w-5 h-px mb-1 bg-orange-500" />
-        <span className="w-5 h-px mb-1 bg-orange-500" />
-      </button>
     </header>
   )
 }
