@@ -7,6 +7,7 @@ import { store } from '@/helpers'
 
 import App from './App'
 import reportWebVitals from './reportWebVitals'
+import './i18n'
 
 ReactDOM.render(
   <React.StrictMode>
