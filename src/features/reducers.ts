@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux'
 import message from './common/message/message.slices'
+
 const reducers = combineReducers({
-  message
+  message,
 })
 
 export default reducers

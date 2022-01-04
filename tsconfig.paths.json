@@ -7,7 +7,7 @@
       "@routes/*": ["./routes/*"],
       "@assets/*": ["./assets/*"],
       "@lib/*": ["./lib/*"],
-      "@redux/*": ["./redux/*"],
+      "@features/*": ["./features/*"],
       "@pages/*": ["./pages/*"],
       "@services/*": ["./services/*"],
       "@layouts/*": ["./layouts/*"],

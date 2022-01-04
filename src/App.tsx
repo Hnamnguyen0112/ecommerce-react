@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './App.css'
 import { Link, useRoutes } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from '@/helpers'
-import { success } from '@redux/common/message/message.slices'
+import { success } from '@features/common/message/message.slices'
 import Header from './components/Header'
 import { main } from './routes'
 
