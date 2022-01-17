@@ -1,6 +1,6 @@
 import React from 'react'
-import PageNotFound from '@pages/PageNotFound'
+import Home from '@pages/Home'
 
 export const main = [
-  { path: '/', element: <PageNotFound /> },
+  { path: '/', element: <Home /> },
 ]
