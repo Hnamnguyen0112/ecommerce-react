@@ -8,7 +8,7 @@ import { main } from './routes'
 
 function App() {
   return (
-    <div className="bg-white flex flex-col font-sans">
+    <div className="max-w-screen min-h-screen bg-slate-50 flex flex-col font-sans">
       <Header />
       <Banner />
       {useRoutes(main)}
