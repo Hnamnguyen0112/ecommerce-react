@@ -1,3 +1,17 @@
 {
-  "greeting": "Hello"
+  "header": {
+    "product": "Products",
+    "solution": "Solutions",
+    "company": "Company",
+    "partner": "Partners",
+    "event": "Events",
+    "resource": "Resources",
+    "success_support": "Success & Support"
+  },
+  "banner": {
+    "service": "Services",
+    "multimedia_products": "Multimedia products",
+    "attractive_designs_for_your_brand": "Attractive designs for your brand",
+    "learn_more": "Learn more"
+  }
 }

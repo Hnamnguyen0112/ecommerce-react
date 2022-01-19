@@ -1,0 +1,17 @@
+{
+  "header": {
+    "product": "Produkter",
+    "solution": "Løsninger",
+    "company": "Selskab",
+    "partner": "Partnere",
+    "event": "Begivenheder",
+    "resource": "Ressourcer",
+    "success_support": "Succes & Support"
+  },
+  "banner": {
+    "service": "Tjenester",
+    "multimedia_products": "Multimedieprodukter",
+    "attractive_designs_for_your_brand": "Attraktivt design til dit brand",
+    "learn_more": "Lær mere"
+  }
+}

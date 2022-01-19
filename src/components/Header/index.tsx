@@ -49,16 +49,16 @@ function Header() {
       <div className="sm:w-1/2 flex flex-wrap">
         <h3 className="text-2xl font-bold uppercase bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 m-auto">Logo</h3>
         <nav className="w-4/5 hidden md:flex text-md">
-          <StyledMenuItem href="#!">Products</StyledMenuItem>
-          <StyledMenuItem href="#!">Solutions</StyledMenuItem>
-          <StyledMenuItem href="#!">Company</StyledMenuItem>
-          <StyledMenuItem href="#!">Partners</StyledMenuItem>
-          <StyledMenuItem href="#!">Events</StyledMenuItem>
+          <StyledMenuItem href="#!">{t('header.product')}</StyledMenuItem>
+          <StyledMenuItem href="#!">{t('header.solution')}</StyledMenuItem>
+          <StyledMenuItem href="#!">{t('header.company')}</StyledMenuItem>
+          <StyledMenuItem href="#!">{t('header.partner')}</StyledMenuItem>
+          <StyledMenuItem href="#!">{t('header.event')}</StyledMenuItem>
         </nav>
       </div>
       <nav className="hidden lg:flex text-md">
-        <StyledMenuItem href="#!">Resources</StyledMenuItem>
-        <StyledMenuItem href="#!">Success & Support</StyledMenuItem>
+        <StyledMenuItem href="#!">{t('header.resource')}</StyledMenuItem>
+        <StyledMenuItem href="#!">{t('header.success_support')}</StyledMenuItem>
         <Menu as="div" className="hidden relative sm:inline-block text-left">
           <Menu.Button
             className="inline-flex justify-center w-full md:px-4 my-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-0 hover:bg-opacity-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"

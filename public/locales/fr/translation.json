@@ -1,0 +1,17 @@
+{
+  "header": {
+    "product": "Produits",
+    "solution": "Solutions",
+    "company": "Compagnie",
+    "partner": "Partenaires",
+    "event": "Événements",
+    "resource": "Ressources",
+    "success_support": "Succès & Soutien"
+  },
+  "banner": {
+    "service": "Services",
+    "multimedia_products": "Produits multimédias",
+    "attractive_designs_for_your_brand": "Des designs attrayants pour votre marque",
+    "learn_more": "Apprendre encore plus"
+  }
+}

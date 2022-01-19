@@ -1,0 +1,17 @@
+{
+  "header": {
+    "product": "Producten",
+    "solution": "Oplossingen",
+    "company": "Bedrijf",
+    "partner": "Partners",
+    "event": "Evenementen",
+    "resource": "Bronnen",
+    "success_support": "Succes & Ondersteuning"
+  },
+  "banner": {
+    "service": "Diensten",
+    "multimedia_products": "Multimediaproducten",
+    "attractive_designs_for_your_brand": "Aantrekkelijke ontwerpen voor uw merk",
+    "learn_more": "Leer meer"
+  }
+}
