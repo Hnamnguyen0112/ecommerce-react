@@ -45,9 +45,9 @@ function Header() {
   }, [i18n.language])
 
   return (
-    <header className="flex flex-col sm:flex-row items-center justify-between py-3 px-6 relative">
+    <header className="w-screen bg-white flex flex-col sm:flex-row items-center justify-between py-3 px-6 relative">
       <div className="sm:w-1/2 flex flex-wrap">
-        <h3 className="text-2xl font-bold uppercase bg-clip-text text-transparent bg-gradient-to-r from-violet-500 to-fuchsia-500 m-auto">Logo</h3>
+        <h3 className="text-2xl font-bold uppercase bg-clip-text text-transparent bg-gradient-to-r bg-gradient-to-r from-cyan-500 to-blue-500 m-auto">Logo</h3>
         <nav className="w-4/5 hidden md:flex text-md">
           <StyledMenuItem href="#!">{t('header.product')}</StyledMenuItem>
           <StyledMenuItem href="#!">{t('header.solution')}</StyledMenuItem>

@@ -10,23 +10,25 @@ interface Props {
 
 function AfterBannerCard({ translation }: Props) {
   return (
-    <div className="w-full px-4 bg-white rounded-lg overflow-hidden mb-10">
+    <div
+      className="w-full px-4 bg-white overflow-hidden mb-10 transition ease-in-out hover:-translate-y-1
+      hover:scale-110 hover:bg-blue-500 hover:text-white"
+    >
       <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
         <h3>
           <a
             href="#!"
             className="
-                        font-semibold
-                        text-dark text-xl
-                        sm:text-[22px]
-                        md:text-xl
-                        lg:text-[22px]
-                        xl:text-xl
-                        2xl:text-[22px]
-                        mb-4
-                        block
-                        hover:text-primary
-                        "
+            font-semibold
+            text-dark text-xl
+            sm:text-[22px]
+            md:text-xl
+            lg:text-[22px]
+            xl:text-xl
+            2xl:text-[22px]
+            mb-4
+            block
+            hover:text-primary"
           >
             {translation.title}
           </a>

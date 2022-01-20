@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import AfterBannerCard from '@components/AfterBannerCard'
+import Banner from '@components/Banner'
 
 function Home() {
   const [translation] = useState({
@@ -10,10 +11,13 @@ function Home() {
     },
   })
   return (
-    <div className="max-w-5xl mx-auto flex flex-col lg:flex-row lg:gap-x-8">
-      <AfterBannerCard translation={translation.first} />
-      <AfterBannerCard translation={translation.first} />
-      <AfterBannerCard translation={translation.first} />
+    <div className="max-w-screen">
+      <Banner />
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row ">
+        <AfterBannerCard translation={translation.first} />
+        <AfterBannerCard translation={translation.first} />
+        <AfterBannerCard translation={translation.first} />
+      </div>
     </div>
   )
 }
