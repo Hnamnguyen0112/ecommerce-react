@@ -6,7 +6,7 @@ function Banner() {
   const { t } = useTranslation()
   return (
     <div
-      className="bg-cover bg-center h-[30rem] text-white py-24 px-10 object-fill"
+      className="bg-cover bg-center h-[30rem] text-white py-24 px-20 object-fill"
       style={{ backgroundImage: `url(${BannerImage})` }}
     >
       <div className="md:w-1/2">

@@ -11,8 +11,8 @@ interface Props {
 function AfterBannerCard({ translation }: Props) {
   return (
     <div
-      className="w-full px-4 bg-white overflow-hidden mb-10 transition ease-in-out hover:-translate-y-1
-      hover:scale-110 hover:bg-blue-500 hover:text-white"
+      className="w-full px-4 bg-white overflow-hidden transition ease-in-out hover:-translate-y-1
+      hover:scale-110 hover:bg-blue-500 hover:text-white delay-100 duration-300"
     >
       <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
         <h3>
@@ -39,16 +39,14 @@ function AfterBannerCard({ translation }: Props) {
         <a
           href="#!"
           className="
-                     inline-block
-                     py-2
-                     px-7
-                     border border-[#E5E7EB]
-                     rounded-full
-                     text-base text-body-color
-                     font-medium
-                     hover:border-primary hover:bg-primary hover:text-white
-                     transition
-                     "
+          inline-block
+          py-2
+          px-7
+          border border-[#E5E7EB]
+          rounded-full
+          text-base text-body-color
+          font-medium
+          transition"
         >
           {translation.button}
         </a>
